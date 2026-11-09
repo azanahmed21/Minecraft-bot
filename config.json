@@ -1,0 +1,52 @@
+{
+  "server": {
+    "host": "GK_TALHA-Yg9Z.aternos.me",
+    "port": 58107,
+    "version": "1.21",
+    "auth": "offline"
+  },
+  "bots": [
+    {
+      "username": "ali",
+      "movementInterval": 1000
+    },
+    {
+      "username": "azan3",
+      "movementInterval": 1000
+    },
+    {
+      "username": "Hassan",
+      "movementInterval": 1000
+    },
+    {
+      "username": "farzan",
+      "movementInterval": 1000
+    },
+    {
+      "username": "azan2",
+      "movementInterval": 1000
+    },
+    {
+      "username": "Hassan_12",
+      "movementInterval": 1000
+    },
+    {
+      "username": "guriya",
+      "movementInterval": 1000
+    },
+    {
+      "username": "sigma",
+      "movementInterval": 1000
+    },
+    {
+      "username": "steve",
+      "movementInterval": 1000
+    },
+    {
+      "username": "jhonnyS",
+      "movementInterval": 1000
+    }
+  ],
+  "autoReconnect": true,
+  "reconnectDelay": 50000
+}

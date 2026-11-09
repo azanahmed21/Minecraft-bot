@@ -1,0 +1,39 @@
+{
+  "name": "minecraft-afk-bot",
+  "version": "1.0.0",
+  "description": "A Minecraft Java Edition AFK bot that keeps you connected by performing periodic movements and actions",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "db:push": "drizzle-kit push"
+  },
+  "keywords": [
+    "minecraft",
+    "bot",
+    "afk"
+  ],
+  "author": "",
+  "license": "MIT",
+  "overrides": {
+    "axios": "^0.30.3"
+  },
+  "dependencies": {
+    "axios": "^0.30.3",
+    "drizzle-kit": "^0.31.8",
+    "drizzle-orm": "^0.45.1",
+    "drizzle-zod": "^0.8.3",
+    "express": "^5.2.1",
+    "jws": "^4.0.1",
+    "minecraft-data": "^3.102.3",
+    "mineflayer": "github:PrismarineJS/mineflayer",
+    "mineflayer-collectblock": "github:PrismarineJS/mineflayer-collectblock#master",
+    "mineflayer-pathfinder": "github:PrismarineJS/mineflayer-pathfinder",
+    "openai": "^6.16.0",
+    "p-limit": "^7.2.0",
+    "p-retry": "^7.1.1",
+    "pg": "^8.17.1",
+    "prismarine-physics": "^1.11.1",
+    "zod": "^4.3.5",
+    "zod-validation-error": "^5.0.0"
+  }
+}
